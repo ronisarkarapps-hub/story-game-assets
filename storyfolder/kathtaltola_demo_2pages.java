@@ -1,0 +1,57 @@
+{
+  "id": "kathtaltaltola_demo_2pages",
+  "title": "অভিশপ্ত গ্রাম: কাঁঠালতলা (2 Page Demo)",
+  "startNodeId": "p01",
+  "nodes": {
+    "p01": {
+      "pageTitle": "গ্রামের সীমানা",
+      "blocks": [
+        {
+          "type": "image",
+          "url": "https://cdn.jsdelivr.net/gh/ronisarkarapps-hub/story-game-assets@main/images/stories/kathtaltola_demo/p01_a.webp"
+        },
+        {
+          "type": "text",
+          "text": "রাফি বিকেলের শেষ বাসে কাঁঠালতলা গ্রামে পৌঁছাল। চারপাশ অদ্ভুতভাবে চুপ। মোবাইলে সিগন্যাল নেই। সাইনবোর্ডে শুধু গ্রামের নাম পরিষ্কার, নিচে আধখানা শব্দ—অভিশা…\n\nবাস চলে গেলে বাঁশঝাড় থেকে এক বৃদ্ধ বলল: সন্ধ্যার আগে উত্তরমুখী ঘর খুঁজে নাও। দিক ভুল করলে ভুল ঘরে ঢুকবে, আর ছায়ার ডাক শুরু হবে।"
+        }
+      ],
+      "quiz": {
+        "imageUrl": "https://cdn.jsdelivr.net/gh/ronisarkarapps-hub/story-game-assets@main/images/stories/kathtaltola_demo/p01_b.webp",
+        "type": "mcq",
+        "q": "বিকেলে সূর্য সাধারণত কোন দিকে থাকে? তখন ছায়া কোন দিকে পড়ে?",
+        "options": [
+          "সূর্য পূর্বে, ছায়া পশ্চিমে",
+          "সূর্য পশ্চিমে, ছায়া পূর্বে",
+          "সূর্য উত্তরে, ছায়া দক্ষিণে",
+          "সূর্য দক্ষিণে, ছায়া উত্তরে"
+        ],
+        "answerIndex": 1,
+        "explanation": "বিকেলে সূর্য পশ্চিমে হেলে যায়। আলো যেদিক থেকে আসে, ছায়া পড়ে বিপরীত দিকে। তাই ছায়া পূর্বে পড়ে।",
+        "diagram": "☼ পশ্চিম → [রাফি] → ছায়া পূর্ব"
+      },
+      "nextNodeId": "p02"
+    },
+
+    "p02": {
+      "pageTitle": "উত্তরমুখী ঘর",
+      "blocks": [
+        {
+          "type": "image",
+          "url": "https://cdn.jsdelivr.net/gh/ronisarkarapps-hub/story-game-assets@main/images/stories/kathtaltola_demo/p02_a.webp"
+        },
+        {
+          "type": "text",
+          "text": "রাফি ছায়ার দিক মিলিয়ে উত্তরমুখী ঘরে ঢোকে। ভেতরে ধূপের গন্ধ। বাইরে ফিসফিস শব্দ। বৃদ্ধ ফিসফিস করে বলে: রাতে নাম বলবে না, কুয়োর দিকে তাকাবে না।\n\nরাফি বুঝল—এখানে ভয় নয়, নিয়মই আসল।"
+        }
+      ],
+      "quiz": {
+        "imageUrl": "https://cdn.jsdelivr.net/gh/ronisarkarapps-hub/story-game-assets@main/images/stories/kathtaltola_demo/p02_b.webp",
+        "type": "text",
+        "q": "আমি কথা বলি না, কিন্তু উত্তর দিই—আমি কে?",
+        "answerText": "প্রতিধ্বনি",
+        "explanation": "প্রতিধ্বনি (Echo) শব্দকে ফিরে দেয়। এই গ্রামে অনেক সূত্র শব্দ আর প্রতিধ্বনির মাধ্যমে আসে।",
+        "diagram": "শব্দ → দেয়াল/কুয়ো → ফিরে আসে = প্রতিধ্বনি"
+      }
+    }
+  }
+}
